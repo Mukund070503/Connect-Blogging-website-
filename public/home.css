@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+img{
+    width: 60px;
+    height: 40px;
+}
+.icon-welcome{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#home_header{
+    padding-left: 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.button-job{
+    display: flex;
+    align-items:center;
+}
+.button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get it to align nicely */
+    font-size: 16px; /* Set the font size */
+    margin: 14px 2px; /* Margin around the button */
+    margin-right: 50px;
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+#info{
+    padding-left: 10px;
+    height: 80vh;
+}

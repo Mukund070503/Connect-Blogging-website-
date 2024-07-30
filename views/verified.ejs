@@ -1,0 +1,11 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/verified.css">
+<h2 >Welcome user! You are finally authorized to write your own Blog so let's get started 😃</h2>
+<div id="content">
+<form action="/authenticate/verified/readPost" method="post">
+    <label for="name">Write your Blog:</label>
+    <textarea name="post" autocorrect="on" spellcheck="true" rows="5" cols="80"></textarea>
+    <input type="submit" value="click me" accesskey="s"/>
+</form>
+<%- include("partials/footer.ejs") %>
+</div>

@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/authenticate.css">
+<div class="credentials">
+<h2><%=heading%></h2>
+<form action="/authenticate/verified" method="post">
+    <div class="value"><label for="name">User name:</label>
+    <input type="text" name="name"></div>
+    <div class="value"><label for="name">Password:</label>
+    <input type="password" name="password"></div>
+    <input type="submit" value="click me" accesskey="s"/>
+
+</form>
+</div>
+<%- include("partials/footer.ejs") %> 

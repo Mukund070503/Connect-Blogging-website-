@@ -1,0 +1,18 @@
+.credentials{
+    height: 82.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.value{
+    display: flex;
+    gap: 4px;
+}
